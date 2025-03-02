@@ -1,0 +1,26 @@
+[
+  {
+    "value": "all",
+    "show": "All"
+  },
+  {
+    "value": "cybersecurity",
+    "show": "Cyber Security"
+  },
+  {
+    "value": "programming",
+    "show": "Programming"
+  },
+  {
+    "value": "IT",
+    "show": "IT"
+  },
+  {
+    "value": "design",
+    "show": "Designing"
+  },
+  {
+    "value": "accounting",
+    "show": "Accounting"
+  }
+]
