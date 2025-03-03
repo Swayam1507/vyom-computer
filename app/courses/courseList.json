@@ -19,13 +19,98 @@
       "Malware Analysis",
       "Vulnerability Assessment"
     ],
-    "price": "$499",
+    "price": "₹37,000",
     "nextBatch": "August 1",
     "link": "/courses/expert-ethical-hacking",
     "tags": ["cybersecurity", "ethical hacking", "IT"],
     "instructor": "John Doe",
     "rating": "4.8",
-    "prerequisites": ["Basic IT knowledge", "Understanding of networking"]
+    "prerequisites": ["Basic IT knowledge", "Understanding of networking"],
+    "content": [
+      {
+        "topic": "Introduction to Ethical Hacking",
+        "subtopics": [
+          "Cybersecurity Fundamentals",
+          "Setting Up a Lab Environment",
+          "Understanding Threats and Vulnerabilities",
+          "Legal and Ethical Issues in Hacking"
+        ]
+      },
+      {
+        "topic": "Footprinting and Reconnaissance",
+        "subtopics": [
+          "Understanding Footprinting",
+          "Tools for Reconnaissance",
+          "Active and Passive Reconnaissance",
+          "Gathering Information from Public Sources"
+        ]
+      },
+      {
+        "topic": "Scanning Networks",
+        "subtopics": [
+          "Network Scanning Techniques",
+          "Port Scanning",
+          "Vulnerability Scanning",
+          "Network Mapping"
+        ]
+      },
+      {
+        "topic": "System Hacking",
+        "subtopics": [
+          "Basics of System Hacking",
+          "Common Techniques",
+          "Password Cracking",
+          "Privilege Escalation",
+          "Covering Tracks"
+        ]
+      },
+      {
+        "topic": "Social Engineering",
+        "subtopics": [
+          "Introduction to Social Engineering",
+          "Common Tactics",
+          "Phishing Attacks",
+          "Countermeasures"
+        ]
+      },
+      {
+        "topic": "Hacking Web Applications",
+        "subtopics": [
+          "Basics of Web Application Security",
+          "Common Vulnerabilities",
+          "SQL Injection",
+          "Cross-Site Scripting (XSS)",
+          "Web Application Firewalls"
+        ]
+      },
+      {
+        "topic": "Hacking Wireless Networks",
+        "subtopics": [
+          "Introduction to Wireless Security",
+          "Common Attacks",
+          "WEP and WPA Cracking",
+          "Securing Wireless Networks"
+        ]
+      },
+      {
+        "topic": "Cryptography",
+        "subtopics": [
+          "Basics of Cryptography",
+          "Common Algorithms",
+          "Public Key Infrastructure (PKI)",
+          "Cryptographic Attacks"
+        ]
+      },
+      {
+        "topic": "Vulnerability Assessment",
+        "subtopics": [
+          "Introduction to Vulnerability Assessment",
+          "Common Tools",
+          "Conducting Vulnerability Assessments",
+          "Reporting and Mitigation"
+        ]
+      }
+    ]
   },
   {
     "title": "CCC - Course on Computer Concepts",
@@ -47,13 +132,55 @@
       "Social Media Usage",
       "Online Collaboration Tools"
     ],
-    "price": "$99",
+    "price": "₹8,000",
     "nextBatch": "July 1",
     "link": "/courses/ccc-government-certified",
     "tags": ["computer", "government"],
     "instructor": "Ivy King",
     "rating": "4.5",
-    "prerequisites": ["None"]
+    "prerequisites": ["None"],
+    "content": [
+      {
+        "topic": "Basic Computer Concepts",
+        "subtopics": [
+          "Introduction to Computers",
+          "Hardware and Software",
+          "Operating Systems",
+          "File Management"
+        ]
+      },
+      {
+        "topic": "MS Office",
+        "subtopics": ["MS Word", "MS Excel", "MS PowerPoint", "MS Access"]
+      },
+      {
+        "topic": "Internet and Email",
+        "subtopics": [
+          "Using the Internet",
+          "Email Basics",
+          "Online Services",
+          "Digital Payments"
+        ]
+      },
+      {
+        "topic": "Cyber Security",
+        "subtopics": [
+          "Introduction to Cyber Security",
+          "Safe Browsing",
+          "Protecting Personal Information",
+          "Digital Payments Security"
+        ]
+      },
+      {
+        "topic": "Introduction to Programming",
+        "subtopics": [
+          "Programming Basics",
+          "Introduction to C",
+          "Introduction to Python",
+          "Introduction to Java"
+        ]
+      }
+    ]
   },
   {
     "title": "Expert in Python Programming",
@@ -75,13 +202,60 @@
       "Error Handling & Debugging",
       "Project Development"
     ],
-    "price": "$199",
+    "price": "₹16,000",
     "nextBatch": "July 5",
     "link": "/courses/expert-python-programming",
     "tags": ["programming", "development", "IT"],
     "instructor": "James Brown",
     "rating": "4.7",
-    "prerequisites": ["Basic programming knowledge"]
+    "prerequisites": ["Basic programming knowledge"],
+    "content": [
+      {
+        "topic": "Python Basics",
+        "subtopics": [
+          "Introduction to Python",
+          "Python Syntax",
+          "Variables and Data Types",
+          "Control Structures"
+        ]
+      },
+      {
+        "topic": "Data Structures",
+        "subtopics": [
+          "Lists and Tuples",
+          "Dictionaries and Sets",
+          "List Comprehensions",
+          "Generators and Iterators"
+        ]
+      },
+      {
+        "topic": "Web Development",
+        "subtopics": [
+          "Introduction to Django",
+          "Building Web Applications",
+          "Templates and Forms",
+          "Database Integration"
+        ]
+      },
+      {
+        "topic": "Data Analysis",
+        "subtopics": [
+          "Introduction to Pandas",
+          "Data Cleaning",
+          "Data Visualization",
+          "Statistical Analysis"
+        ]
+      },
+      {
+        "topic": "Machine Learning",
+        "subtopics": [
+          "Introduction to Machine Learning",
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Model Evaluation"
+        ]
+      }
+    ]
   },
   {
     "title": "CCC+ - Advanced Course on Computer Concepts",
@@ -103,13 +277,60 @@
       "Software Development Life Cycle (SDLC)",
       "IT Support & Troubleshooting"
     ],
-    "price": "$199",
+    "price": "₹16,000",
     "nextBatch": "July 1",
     "link": "/courses/ccc-plus-government-certified",
     "tags": ["computer", "government", "advanced"],
     "instructor": "Karen Miller",
     "rating": "4.7",
-    "prerequisites": ["Basic computer knowledge"]
+    "prerequisites": ["Basic computer knowledge"],
+    "content": [
+      {
+        "topic": "Advanced MS Office",
+        "subtopics": [
+          "Advanced Word Processing",
+          "Advanced Spreadsheets",
+          "Advanced Presentations",
+          "Data Analysis with Excel"
+        ]
+      },
+      {
+        "topic": "Basic Programming",
+        "subtopics": [
+          "Introduction to C",
+          "Introduction to Python",
+          "Introduction to Java",
+          "Basic Algorithms"
+        ]
+      },
+      {
+        "topic": "Database Management",
+        "subtopics": [
+          "Introduction to SQL",
+          "Database Design",
+          "MySQL Basics",
+          "Database Administration"
+        ]
+      },
+      {
+        "topic": "Networking",
+        "subtopics": [
+          "Networking Basics",
+          "Network Configuration",
+          "Network Security",
+          "Troubleshooting Networks"
+        ]
+      },
+      {
+        "topic": "Web Development",
+        "subtopics": [
+          "HTML and CSS",
+          "JavaScript Basics",
+          "Building Web Pages",
+          "Introduction to Web Frameworks"
+        ]
+      }
+    ]
   },
   {
     "title": "Tally ERP 9 with GST",
@@ -131,13 +352,51 @@
       "Tax Deducted at Source (TDS)",
       "Tax Collected at Source (TCS)"
     ],
-    "price": "$129",
+    "price": "₹10,000",
     "nextBatch": "July 5",
     "link": "/courses/tally-erp9-gst",
     "tags": ["finance", "accounting", "business"],
     "instructor": "Charlie Davis",
     "rating": "4.6",
-    "prerequisites": ["Basic accounting knowledge"]
+    "prerequisites": ["Basic accounting knowledge"],
+    "content": [
+      {
+        "topic": "Tally Basics",
+        "subtopics": [
+          "Introduction to Tally",
+          "Creating and Configuring Company",
+          "Ledger and Group Creation",
+          "Voucher Entry"
+        ]
+      },
+      {
+        "topic": "GST & Taxation",
+        "subtopics": [
+          "Introduction to GST",
+          "GST Configuration in Tally",
+          "GST Reports",
+          "Tax Deducted at Source (TDS)"
+        ]
+      },
+      {
+        "topic": "Inventory Management",
+        "subtopics": [
+          "Stock Groups and Categories",
+          "Stock Items and Units",
+          "Godowns and Locations",
+          "Inventory Vouchers"
+        ]
+      },
+      {
+        "topic": "Payroll Management",
+        "subtopics": [
+          "Employee Creation",
+          "Payroll Configuration",
+          "Salary Processing",
+          "Payroll Reports"
+        ]
+      }
+    ]
   },
   {
     "title": "Expert in Server Administration (CESA)",
@@ -159,7 +418,7 @@
       "Database Server Management",
       "Performance Monitoring"
     ],
-    "price": "$399",
+    "price": "₹33,000",
     "nextBatch": "August 1",
     "link": "/courses/expert-server-administration",
     "tags": ["server", "administration", "IT", "cybersecurity"],
@@ -168,6 +427,44 @@
     "prerequisites": [
       "Basic IT knowledge",
       "Understanding of operating systems"
+    ],
+    "content": [
+      {
+        "topic": "Linux Server Management",
+        "subtopics": [
+          "Introduction to Linux",
+          "User and Group Management",
+          "File System Management",
+          "Package Management"
+        ]
+      },
+      {
+        "topic": "Windows Server Management",
+        "subtopics": [
+          "Introduction to Windows Server",
+          "Active Directory",
+          "Group Policy Management",
+          "Server Roles and Features"
+        ]
+      },
+      {
+        "topic": "Network Configuration",
+        "subtopics": [
+          "IP Addressing",
+          "DNS Configuration",
+          "DHCP Configuration",
+          "Network Troubleshooting"
+        ]
+      },
+      {
+        "topic": "Server Security",
+        "subtopics": [
+          "Firewall Configuration",
+          "Intrusion Detection Systems",
+          "Backup and Recovery",
+          "Security Best Practices"
+        ]
+      }
     ]
   },
   {
@@ -190,14 +487,53 @@
       "Advanced Exploitation Techniques",
       "Incident Response"
     ],
-    "price": "$449",
+    "price": "₹37,000",
     "nextBatch": "August 1",
     "link": "/courses/expert-network-pentest",
     "tags": ["cybersecurity", "network security", "pentesting"],
     "instructor": "Alice Johnson",
     "rating": "4.9",
-    "prerequisites": ["Basic IT knowledge", "Understanding of networking"]
+    "prerequisites": ["Basic IT knowledge", "Understanding of networking"],
+    "content": [
+      {
+        "topic": "Network Security Basics",
+        "subtopics": [
+          "Introduction to Network Security",
+          "Common Threats and Vulnerabilities",
+          "Security Protocols",
+          "Network Security Tools"
+        ]
+      },
+      {
+        "topic": "Wireless Pentesting",
+        "subtopics": [
+          "Introduction to Wireless Security",
+          "Wireless Attacks",
+          "WEP and WPA Cracking",
+          "Securing Wireless Networks"
+        ]
+      },
+      {
+        "topic": "LAN Pentesting",
+        "subtopics": [
+          "LAN Security Basics",
+          "LAN Attacks",
+          "Exploiting LAN Vulnerabilities",
+          "Mitigating LAN Attacks"
+        ]
+      },
+      {
+        "topic": "Incident Response",
+        "subtopics": [
+          "Introduction to Incident Response",
+          "Incident Detection",
+          "Incident Handling",
+          "Post-Incident Activities"
+        ]
+      }
+    ]
   },
+
   {
     "title": "Expert in Web Pentest (CEWP)",
     "image": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
@@ -218,15 +554,55 @@
       "Authentication & Authorization",
       "API Security"
     ],
-    "price": "$449",
+    "price": "₹37,000",
     "nextBatch": "August 1",
     "link": "/courses/expert-web-pentest",
     "tags": ["cybersecurity", "web security", "pentesting"],
     "instructor": "Bob Brown",
     "rating": "4.8",
-    "prerequisites": ["Basic IT knowledge", "Understanding of web technologies"]
+    "prerequisites": [
+      "Basic IT knowledge",
+      "Understanding of web technologies"
+    ],
+    "content": [
+      {
+        "topic": "Web Application Security",
+        "subtopics": [
+          "Introduction to Web Security",
+          "Common Web Vulnerabilities",
+          "Security Testing Tools",
+          "Web Security Best Practices"
+        ]
+      },
+      {
+        "topic": "SQL Injection",
+        "subtopics": [
+          "Introduction to SQL Injection",
+          "Types of SQL Injection",
+          "Exploiting SQL Injection",
+          "Preventing SQL Injection"
+        ]
+      },
+      {
+        "topic": "Cross-Site Scripting (XSS)",
+        "subtopics": [
+          "Introduction to XSS",
+          "Types of XSS",
+          "Exploiting XSS",
+          "Preventing XSS"
+        ]
+      },
+      {
+        "topic": "Bug Bounty",
+        "subtopics": [
+          "Introduction to Bug Bounty",
+          "Bug Bounty Platforms",
+          "Reporting Vulnerabilities",
+          "Bug Bounty Best Practices"
+        ]
+      }
+    ]
   },
-
   {
     "title": "C Language",
     "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
@@ -247,13 +623,51 @@
       "Modular Programming",
       "Debugging Techniques"
     ],
-    "price": "$99",
+    "price": "₹8,000",
     "nextBatch": "July 8",
     "link": "/courses/c-language",
     "tags": ["programming", "development", "IT"],
     "instructor": "David Evans",
     "rating": "4.5",
-    "prerequisites": ["None"]
+    "prerequisites": ["None"],
+    "content": [
+      {
+        "topic": "C Programming Basics",
+        "subtopics": [
+          "Introduction to C",
+          "Syntax and Structure",
+          "Data Types and Variables",
+          "Control Structures"
+        ]
+      },
+      {
+        "topic": "Functions & Pointers",
+        "subtopics": [
+          "Defining Functions",
+          "Function Prototypes",
+          "Pointer Basics",
+          "Pointer Arithmetic"
+        ]
+      },
+      {
+        "topic": "Data Structures in C",
+        "subtopics": [
+          "Arrays and Strings",
+          "Structures and Unions",
+          "Linked Lists",
+          "Stacks and Queues"
+        ]
+      },
+      {
+        "topic": "File Handling in C",
+        "subtopics": [
+          "File Operations",
+          "Reading and Writing Files",
+          "Binary Files",
+          "File Pointers"
+        ]
+      }
+    ]
   },
   {
     "title": "C++ Language",
@@ -275,13 +689,51 @@
       "Design Patterns",
       "Memory Management"
     ],
-    "price": "$129",
+    "price": "₹10,000",
     "nextBatch": "July 8",
     "link": "/courses/cpp-language",
     "tags": ["programming", "development", "IT"],
     "instructor": "Eve Foster",
     "rating": "4.7",
-    "prerequisites": ["Basic programming knowledge"]
+    "prerequisites": ["Basic programming knowledge"],
+    "content": [
+      {
+        "topic": "Introduction to C++",
+        "subtopics": [
+          "C++ Syntax and Structure",
+          "Data Types and Variables",
+          "Control Structures",
+          "Functions and Scope"
+        ]
+      },
+      {
+        "topic": "Object-Oriented Programming (OOP)",
+        "subtopics": [
+          "Classes and Objects",
+          "Inheritance",
+          "Polymorphism",
+          "Encapsulation"
+        ]
+      },
+      {
+        "topic": "STL (Standard Template Library)",
+        "subtopics": [
+          "Introduction to STL",
+          "Containers",
+          "Iterators",
+          "Algorithms"
+        ]
+      },
+      {
+        "topic": "File Handling & Project Development",
+        "subtopics": [
+          "File Streams",
+          "Reading and Writing Files",
+          "Project Structure",
+          "Debugging Techniques"
+        ]
+      }
+    ]
   },
   {
     "title": "HTML & DHTML",
@@ -303,13 +755,51 @@
       "SEO Basics",
       "Web Performance Optimization"
     ],
-    "price": "$99",
+    "price": "₹8,000",
     "nextBatch": "July 12",
     "link": "/courses/html-dhtml",
     "tags": ["web", "frontend", "design", "programming", "IT"],
     "instructor": "Frank Green",
     "rating": "4.6",
-    "prerequisites": ["None"]
+    "prerequisites": ["None"],
+    "content": [
+      {
+        "topic": "HTML Basics & Structure",
+        "subtopics": [
+          "Introduction to HTML",
+          "HTML Elements",
+          "HTML Attributes",
+          "HTML Forms"
+        ]
+      },
+      {
+        "topic": "CSS & Styling Techniques",
+        "subtopics": [
+          "Introduction to CSS",
+          "Selectors and Properties",
+          "Box Model",
+          "Flexbox and Grid"
+        ]
+      },
+      {
+        "topic": "JavaScript for Interactivity",
+        "subtopics": [
+          "Introduction to JavaScript",
+          "DOM Manipulation",
+          "Event Handling",
+          "AJAX and Fetch API"
+        ]
+      },
+      {
+        "topic": "DHTML & Dynamic Web Pages",
+        "subtopics": [
+          "Introduction to DHTML",
+          "Dynamic Content",
+          "Animations",
+          "Interactive Forms"
+        ]
+      }
+    ]
   },
   {
     "title": "Diploma in Hardware & Networking",
@@ -331,13 +821,51 @@
       "Virtualization",
       "Cloud Computing"
     ],
-    "price": "$199",
+    "price": "₹16,000",
     "nextBatch": "July 15",
     "link": "/courses/diploma-hardware-networking",
     "tags": ["networking", "IT", "hardware"],
     "instructor": "Grace Harris",
     "rating": "4.7",
-    "prerequisites": ["Basic IT knowledge"]
+    "prerequisites": ["Basic IT knowledge"],
+    "content": [
+      {
+        "topic": "Computer Hardware & Peripherals",
+        "subtopics": [
+          "Introduction to Hardware",
+          "Motherboards and Processors",
+          "Memory and Storage Devices",
+          "Peripheral Devices"
+        ]
+      },
+      {
+        "topic": "Networking Basics & LAN/WAN",
+        "subtopics": [
+          "Introduction to Networking",
+          "LAN and WAN Technologies",
+          "Network Topologies",
+          "Cabling and Connectors"
+        ]
+      },
+      {
+        "topic": "Network Security & Troubleshooting",
+        "subtopics": [
+          "Network Security Fundamentals",
+          "Common Threats and Vulnerabilities",
+          "Security Tools and Techniques",
+          "Troubleshooting Network Issues"
+        ]
+      },
+      {
+        "topic": "Operating System Installation & Maintenance",
+        "subtopics": [
+          "Installing Operating Systems",
+          "System Configuration",
+          "Maintenance and Updates",
+          "Troubleshooting OS Issues"
+        ]
+      }
+    ]
   },
   {
     "title": "Diploma in Computer Application (DCA)",
@@ -359,15 +887,52 @@
       "Cloud Services",
       "Digital Marketing Basics"
     ],
-    "price": "$299",
+    "price": "₹25,000",
     "nextBatch": "July 20",
     "link": "/courses/diploma-computer-application",
     "tags": ["computer", "software", "IT"],
     "instructor": "Henry Jackson",
     "rating": "4.8",
-    "prerequisites": ["None"]
+    "prerequisites": ["None"],
+    "content": [
+      {
+        "topic": "MS Office & Productivity Tools",
+        "subtopics": [
+          "Introduction to MS Office",
+          "Word Processing",
+          "Spreadsheets",
+          "Presentations"
+        ]
+      },
+      {
+        "topic": "Basic Programming",
+        "subtopics": [
+          "Introduction to C",
+          "Introduction to Java",
+          "Introduction to Python",
+          "Basic Algorithms"
+        ]
+      },
+      {
+        "topic": "Database Management",
+        "subtopics": [
+          "Introduction to SQL",
+          "Database Design",
+          "MySQL Basics",
+          "Database Administration"
+        ]
+      },
+      {
+        "topic": "Internet, Networking & Cyber Security",
+        "subtopics": [
+          "Internet Basics",
+          "Networking Fundamentals",
+          "Cyber Security Essentials",
+          "Safe Browsing Practices"
+        ]
+      }
+    ]
   },
-
   {
     "title": "DTP - Desktop Publishing Course",
     "image": "/static/images/courses/dtp.jpg",
@@ -388,12 +953,50 @@
       "Print Production",
       "Portfolio Development"
     ],
-    "price": "$149",
+    "price": "₹12,000",
     "nextBatch": "July 10",
     "link": "/courses/dtp-government-certified",
     "tags": ["design", "publishing", "graphics"],
     "instructor": "Jack Lee",
     "rating": "4.6",
-    "prerequisites": ["Basic computer knowledge"]
+    "prerequisites": ["Basic computer knowledge"],
+    "content": [
+      {
+        "topic": "Adobe Photoshop & Image Editing",
+        "subtopics": [
+          "Introduction to Photoshop",
+          "Image Editing Techniques",
+          "Layer Management",
+          "Photo Retouching"
+        ]
+      },
+      {
+        "topic": "CorelDRAW & Vector Graphics",
+        "subtopics": [
+          "Introduction to CorelDRAW",
+          "Vector Graphic Design",
+          "Creating Illustrations",
+          "Logo Design"
+        ]
+      },
+      {
+        "topic": "Adobe InDesign & Page Layout",
+        "subtopics": [
+          "Introduction to InDesign",
+          "Page Layout Techniques",
+          "Typography",
+          "Print Design"
+        ]
+      },
+      {
+        "topic": "Digital Publishing",
+        "subtopics": [
+          "Introduction to Digital Publishing",
+          "E-book Creation",
+          "Interactive PDFs",
+          "Digital Magazines"
+        ]
+      }
+    ]
   }
 ]
