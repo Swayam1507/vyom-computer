@@ -261,6 +261,7 @@ export default function Home() {
                 <Image
                   src="/static/images/main/students-learning-programming.avif"
                   alt="Students learning programming"
+                  loading="eager"
                   width={600}
                   height={400}
                   className="w-full h-auto object-cover"
