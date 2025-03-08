@@ -1,7 +1,7 @@
 [
   {
     "title": "Expert in Ethical Hacking",
-    "image": "https://plus.unsplash.com/premium_photo-1726754457459-d2dfa2e3a434?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80",
+    "image": "/static/images/courses/expert-ethical-hacking.jpeg",
     "badge": "Advanced",
     "duration": "4 months",
     "description": "Become an expert in ethical hacking, covering penetration testing, network security, and cybersecurity strategies.",
@@ -184,7 +184,7 @@
   },
   {
     "title": "Expert in Python Programming",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "image": "/static/images/courses/expert-python-programming.jpeg",
     "badge": "Trending",
     "duration": "3 months",
     "description": "Master Python programming with hands-on projects, covering data analysis, web development, and automation.",
@@ -537,7 +537,7 @@
 
   {
     "title": "Expert in Web Pentest (CEWP)",
-    "image": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "image": "/static/images/courses/expert-web-pentest.jpeg",
     "badge": "Advanced",
     "duration": "3 months",
     "description": "Gain expertise in web penetration testing to identify security flaws and prevent cyber attacks on web applications.",
@@ -606,7 +606,7 @@
   },
   {
     "title": "C Language",
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "image": "/static/images/courses/c-language.jpeg",
     "badge": "Trending",
     "duration": "2 months",
     "description": "Learn the fundamentals of programming with C, covering syntax, control structures, functions, and data structures.",
@@ -672,7 +672,7 @@
   },
   {
     "title": "C++ Language",
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "image": "/static/images/courses/c++.jpeg",
     "badge": "Trending",
     "duration": "2 months",
     "description": "Master Object-Oriented Programming (OOP) with C++, covering classes, inheritance, polymorphism, and real-world applications.",
@@ -738,7 +738,7 @@
   },
   {
     "title": "HTML & DHTML",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "image": "/static/images/courses/html-dhtml.jpeg",
     "badge": "Trending",
     "duration": "2 months",
     "description": "Learn how to build and style web pages using HTML and DHTML with hands-on projects.",
@@ -804,7 +804,7 @@
   },
   {
     "title": "Diploma in Hardware & Networking",
-    "image": "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "image": "/static/images/courses/diploma-hardware-networking.jpeg",
     "badge": "Industry Recognized",
     "duration": "6 months",
     "description": "Gain expertise in computer hardware, networking, troubleshooting, and system security.",
@@ -870,7 +870,7 @@
   },
   {
     "title": "Diploma in Computer Application (DCA)",
-    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    "image": "/static/images/courses/diploma-computer-application.jpeg",
     "badge": "Job Oriented",
     "duration": "1 year",
     "description": "A comprehensive course covering essential computer applications, programming, and office automation.",

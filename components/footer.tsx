@@ -80,8 +80,21 @@ export default function Footer() {
               <p className="mb-3">Gujarat 384002, India.</p>
               {/* <p>123 Tech Street</p>
               <p>Silicon Valley, CA 94043</p> */}
-              <p>Email: info@codemaster.academy</p>
-              <p>Phone: +91 77779 83678</p>
+              <p>
+                Email:{" "}
+                <Link
+                  className="text-darkgray underline"
+                  href={"mailto:vyomcomputergujarat@gmail.com"}
+                >
+                  vyomcomputergujarat@gmail.com
+                </Link>
+              </p>
+              <p>
+                Phone:{" "}
+                <Link className="underline" href={"tel:+917777983678"}>
+                  +91 77779 83678
+                </Link>
+              </p>
             </address>
           </div>
         </div>

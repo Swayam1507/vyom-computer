@@ -272,14 +272,14 @@ export default function CoursesPage() {
               </div>
             </div>
 
-            <div className="mt-8 text-center">
+            {/* <div className="mt-8 text-center">
               <Link
                 href="/faq"
                 className="text-primary font-medium hover:underline"
               >
                 View all FAQs
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -60,14 +60,24 @@ export default function ContactPage() {
             <Mail className="w-6 h-6 text-primary" />
             <div>
               <h3 className="font-semibold">Email</h3>
-              <p className="text-muted-foreground">contact@codemaster.com</p>
+              <Link
+                href={"mailto:vyomcomputergujarat@gmail.com"}
+                className="text-muted-foreground"
+              >
+                vyomcomputergujarat@gmail.com
+              </Link>
             </div>
           </div>
           <div className="flex items-center gap-4">
             <Phone className="w-6 h-6 text-primary" />
             <div>
               <h3 className="font-semibold">Phone</h3>
-              <p className="text-muted-foreground">+1 234 567 890</p>
+              <Link
+                href={"tel:+917777983678"}
+                className="text-muted-foreground"
+              >
+                +91 77779 83678
+              </Link>
             </div>
           </div>
           <div className="flex items-center gap-4">

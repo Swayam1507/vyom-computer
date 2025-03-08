@@ -259,7 +259,7 @@ export default function Home() {
               {/* Main Image */}
               <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl border border-muted">
                 <Image
-                  src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                  src="/static/images/main/students-learning-programming.avif"
                   alt="Students learning programming"
                   width={600}
                   height={400}
@@ -633,7 +633,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden">
                     <Image
-                      src="https://images.pexels.com/photos/20542649/pexels-photo-20542649/free-photo-of-picture-of-a-male-model.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      src="/static/images/main/aarav-sharma-profile.webp"
                       alt="Aarav Sharma"
                       fill
                       className="object-cover"
@@ -662,7 +662,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden">
                     <Image
-                      src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80"
+                      src="/static/images/main/neha-gupta-profile.avif"
                       alt="Neha Gupta"
                       fill
                       className="object-cover"
@@ -689,8 +689,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden">
                     <Image
-                      // src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80"
-                      src="https://images.pexels.com/photos/17394327/pexels-photo-17394327/free-photo-of-portrait-of-man-wearing-glasses-and-blue-shirt.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      src="/static/images/main/rohan-verma-profile.webp"
                       alt="Rohan Verma"
                       fill
                       className="object-cover"
