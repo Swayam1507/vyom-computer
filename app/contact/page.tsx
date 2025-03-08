@@ -1,3 +1,5 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -10,21 +12,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Clock,
-  MessageSquare,
-  CalendarClock,
-} from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import Email from "./email";
 
 export const metadata = {
   title: "Contact Us | Vyom Computer",
@@ -59,25 +48,9 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form */}
+      {/* Wrap your contact card in a form element and attach the onSubmit handler */}
       <section className="container mx-auto max-sm:w-[90%] py-12">
-        <Card className="max-w-3xl mx-auto">
-          <CardHeader>
-            <CardTitle>Get in Touch</CardTitle>
-            <CardDescription>
-              Fill out the form below, and we'll get back to you soon.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="grid gap-4">
-              <Input type="text" placeholder="Your Name" />
-              <Input type="email" placeholder="Your Email" />
-              <Textarea placeholder="Your Message" rows={5} />
-            </div>
-          </CardContent>
-          <CardFooter>
-            <Button className="w-full">Send Message</Button>
-          </CardFooter>
-        </Card>
+        <Email />
       </section>
 
       {/* Contact Details */}

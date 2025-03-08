@@ -258,6 +258,72 @@
     ]
   },
   {
+    "title": "Tally ERP 9 with GST",
+    "image": "/static/images/courses/tally-erp9-gst.jpg",
+    "badge": "Job Oriented",
+    "duration": "3 months",
+    "description": "Learn Tally ERP 9 with GST, covering accounting, taxation, and financial management for businesses.",
+    "students": "1,200+ students",
+    "hours": "100 hours",
+    "topics": [
+      "Tally Basics & Accounting",
+      "GST & Taxation",
+      "Inventory & Payroll Management",
+      "Financial Reports & Analysis",
+      "Voucher Entry",
+      "Bank Reconciliation",
+      "Budgeting & Control",
+      "Cost Centers & Cost Categories",
+      "Tax Deducted at Source (TDS)",
+      "Tax Collected at Source (TCS)"
+    ],
+    "price": "₹10,000",
+    "nextBatch": "July 5",
+    "link": "/courses/tally-erp9-gst",
+    "tags": ["finance", "accounting", "business"],
+    "instructor": "Charlie Davis",
+    "rating": "4.6",
+    "prerequisites": ["Basic accounting knowledge"],
+    "content": [
+      {
+        "topic": "Tally Basics",
+        "subtopics": [
+          "Introduction to Tally",
+          "Creating and Configuring Company",
+          "Ledger and Group Creation",
+          "Voucher Entry"
+        ]
+      },
+      {
+        "topic": "GST & Taxation",
+        "subtopics": [
+          "Introduction to GST",
+          "GST Configuration in Tally",
+          "GST Reports",
+          "Tax Deducted at Source (TDS)"
+        ]
+      },
+      {
+        "topic": "Inventory Management",
+        "subtopics": [
+          "Stock Groups and Categories",
+          "Stock Items and Units",
+          "Godowns and Locations",
+          "Inventory Vouchers"
+        ]
+      },
+      {
+        "topic": "Payroll Management",
+        "subtopics": [
+          "Employee Creation",
+          "Payroll Configuration",
+          "Salary Processing",
+          "Payroll Reports"
+        ]
+      }
+    ]
+  },
+  {
     "title": "CCC+ - Advanced Course on Computer Concepts",
     "image": "/static/images/courses/ccc.jpg",
     "badge": "Govt. Certified",
@@ -332,72 +398,7 @@
       }
     ]
   },
-  {
-    "title": "Tally ERP 9 with GST",
-    "image": "/static/images/courses/tally-erp9-gst.jpg",
-    "badge": "Job Oriented",
-    "duration": "3 months",
-    "description": "Learn Tally ERP 9 with GST, covering accounting, taxation, and financial management for businesses.",
-    "students": "1,200+ students",
-    "hours": "100 hours",
-    "topics": [
-      "Tally Basics & Accounting",
-      "GST & Taxation",
-      "Inventory & Payroll Management",
-      "Financial Reports & Analysis",
-      "Voucher Entry",
-      "Bank Reconciliation",
-      "Budgeting & Control",
-      "Cost Centers & Cost Categories",
-      "Tax Deducted at Source (TDS)",
-      "Tax Collected at Source (TCS)"
-    ],
-    "price": "₹10,000",
-    "nextBatch": "July 5",
-    "link": "/courses/tally-erp9-gst",
-    "tags": ["finance", "accounting", "business"],
-    "instructor": "Charlie Davis",
-    "rating": "4.6",
-    "prerequisites": ["Basic accounting knowledge"],
-    "content": [
-      {
-        "topic": "Tally Basics",
-        "subtopics": [
-          "Introduction to Tally",
-          "Creating and Configuring Company",
-          "Ledger and Group Creation",
-          "Voucher Entry"
-        ]
-      },
-      {
-        "topic": "GST & Taxation",
-        "subtopics": [
-          "Introduction to GST",
-          "GST Configuration in Tally",
-          "GST Reports",
-          "Tax Deducted at Source (TDS)"
-        ]
-      },
-      {
-        "topic": "Inventory Management",
-        "subtopics": [
-          "Stock Groups and Categories",
-          "Stock Items and Units",
-          "Godowns and Locations",
-          "Inventory Vouchers"
-        ]
-      },
-      {
-        "topic": "Payroll Management",
-        "subtopics": [
-          "Employee Creation",
-          "Payroll Configuration",
-          "Salary Processing",
-          "Payroll Reports"
-        ]
-      }
-    ]
-  },
+
   {
     "title": "Expert in Server Administration (CESA)",
     "image": "/static/images/courses/server-administration.jpg",

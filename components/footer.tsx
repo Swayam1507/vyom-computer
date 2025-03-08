@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Code2 } from "lucide-react";
+import courses from "@/app/courses/courseList.json";
 
 export default function Footer() {
   return (
@@ -56,40 +57,18 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Resources</h3>
+            <h3 className="font-semibold text-lg mb-4">Popular Courses</h3>
             <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/faq"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  FAQ
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/events"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/success-stories"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Success Stories
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/careers"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Careers
-                </Link>
-              </li>
+              {courses.slice(0, 4).map((course) => (
+                <li key={course.link}>
+                  <Link
+                    href={course.link}
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    {course.title}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

@@ -53,6 +53,12 @@ const learningPaths = [
         description: "Learn Tally ERP 9 with GST for accounting.",
         link: "/courses/tally-erp9-gst",
       },
+      {
+        icon: GraduationCap,
+        title: "DTP - Desktop Publishing Course",
+        description: "Learn desktop publishing skills.",
+        link: "/courses/dtp-government-certified",
+      },
     ],
     link: "/learning-paths/beginner",
   },
@@ -110,12 +116,6 @@ const learningPaths = [
         title: "Expert in Web Pentest (CEWP)",
         description: "Gain expertise in web penetration testing.",
         link: "/courses/expert-web-pentest",
-      },
-      {
-        icon: GraduationCap,
-        title: "DTP - Desktop Publishing Course",
-        description: "Learn desktop publishing skills.",
-        link: "/courses/dtp-government-certified",
       },
       {
         icon: GraduationCap,

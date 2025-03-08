@@ -186,87 +186,52 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80"
-                  alt="David Chen"
+                  src="/static/images/about/vandit-barot-profile.png"
+                  alt="Vandit Barot"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold">David Chen</h3>
-              <p className="text-primary font-medium mb-2">Founder & CEO</p>
-              <p className="text-muted-foreground">
-                Former Engineering Director at Google with 15+ years of industry
-                experience.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
-                <Image
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80"
-                  alt="Sarah Johnson"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold">Sarah Johnson</h3>
+              <h3 className="text-xl font-bold">Vandit Barot</h3>
               <p className="text-primary font-medium mb-2">
-                Chief Academic Officer
+                Owner & Lead Instructor
               </p>
               <p className="text-muted-foreground">
-                PhD in Computer Science with expertise in curriculum
-                development.
+                Passionate about teaching programming with over a decade of
+                experience in managing successful computer classes.
               </p>
             </div>
 
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80"
-                  alt="Michael Rodriguez"
+                  src="/static/images/about/vaishali-barot-profile.png"
+                  alt="Vaishali Barot"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold">Michael Rodriguez</h3>
-              <p className="text-primary font-medium mb-2">CTO</p>
+              <h3 className="text-xl font-bold">Vaishali Barot</h3>
+              <p className="text-primary font-medium mb-2">Instructor</p>
               <p className="text-muted-foreground">
-                Former Tech Lead at Amazon with expertise in cloud computing and
-                AI.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
-                <Image
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80"
-                  alt="Priya Patel"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold">Priya Patel</h3>
-              <p className="text-primary font-medium mb-2">
-                Head of Career Services
-              </p>
-              <p className="text-muted-foreground">
-                10+ years of experience in tech recruitment and career coaching.
+                Experienced instructor specializing in CCC, C programming, and
+                DTP.
               </p>
             </div>
           </div>
 
-          <div className="mt-12 text-center">
+          {/* <div className="mt-12 text-center">
             <Button variant="outline" asChild>
               <Link href="/team" className="flex items-center gap-2">
                 Meet Our Full Team
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -281,48 +246,55 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-background rounded-xl p-8 text-center shadow-sm">
+              <div className="bg-primary/10 text-primary rounded-full p-4 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <BookOpen className="h-8 w-8" />
+              </div>
+              <div className="text-2xl font-bold mb-1">
+                Comprehensive Courses
+              </div>
+              <p className="text-lg font-medium">Wide Range of Subjects</p>
+              <p className="text-muted-foreground">
+                Offering a variety of courses from basic computer skills to
+                advanced programming.
+              </p>
+            </div>
+
             <div className="bg-background rounded-xl p-8 text-center shadow-sm">
               <div className="bg-primary/10 text-primary rounded-full p-4 w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Users className="h-8 w-8" />
               </div>
-              <div className="text-4xl font-bold mb-2">10,000+</div>
-              <p className="text-lg font-medium">Graduates</p>
+              <div className="text-2xl font-bold mb-1">
+                Experienced Instructors
+              </div>
+              <p className="text-lg font-medium">Qualified Professionals</p>
               <p className="text-muted-foreground">
-                Students who have successfully completed our courses
+                Learn from industry veterans with years of teaching experience.
               </p>
             </div>
 
-            <div className="bg-background rounded-xl p-8 text-center shadow-sm">
+            {/* <div className="bg-background rounded-xl p-8 text-center shadow-sm">
               <div className="bg-primary/10 text-primary rounded-full p-4 w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Building className="h-8 w-8" />
               </div>
-              <div className="text-4xl font-bold mb-2">500+</div>
-              <p className="text-lg font-medium">Hiring Partners</p>
+              <div className="text-2xl font-bold mb-1">Modern Facilities</div>
+              <p className="text-lg font-medium">State-of-the-Art Labs</p>
               <p className="text-muted-foreground">
-                Companies that regularly hire our graduates
+                Equipped with the latest technology to enhance your learning
+                experience.
               </p>
-            </div>
+            </div> */}
 
             <div className="bg-background rounded-xl p-8 text-center shadow-sm">
               <div className="bg-primary/10 text-primary rounded-full p-4 w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <GraduationCap className="h-8 w-8" />
+                <CheckCircle2 className="h-8 w-8" />
               </div>
-              <div className="text-4xl font-bold mb-2">95%</div>
-              <p className="text-lg font-medium">Placement Rate</p>
+              <div className="text-2xl font-bold mb-1">Certified Programs</div>
+              <p className="text-lg font-medium">Recognized Certifications</p>
               <p className="text-muted-foreground">
-                Graduates who find relevant jobs within 6 months
-              </p>
-            </div>
-
-            <div className="bg-background rounded-xl p-8 text-center shadow-sm">
-              <div className="bg-primary/10 text-primary rounded-full p-4 w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Award className="h-8 w-8" />
-              </div>
-              <div className="text-4xl font-bold mb-2">15+</div>
-              <p className="text-lg font-medium">Industry Awards</p>
-              <p className="text-muted-foreground">
-                Recognitions for our educational excellence
+                Our courses are certified by relevant authorities, ensuring
+                quality education.
               </p>
             </div>
           </div>
@@ -330,7 +302,7 @@ export default function AboutPage() {
       </section>
 
       {/* Partners Section */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container mx-auto max-sm:w-[90%]">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Our Partners</h2>
@@ -365,7 +337,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 bg-primary text-primary-foreground">

@@ -110,7 +110,7 @@ export default function CourseDetailPage({
 
       <div className="mt-6">
         <Button asChild>
-          <a href="/enroll">Enroll Now</a>
+          <a href="/contact">Enroll Now</a>
         </Button>
       </div>
     </div>
