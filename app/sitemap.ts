@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
   blogs.forEach((blog) => {
     list.push({
-      url: `https://vyom-computer.onrender.com/blog${blog.slug}`,
+      url: `https://vyom-computer.onrender.com/blog/${blog.slug}`,
       lastModified: new Date(),
     });
   });
