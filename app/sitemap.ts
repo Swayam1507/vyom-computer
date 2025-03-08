@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   courses.forEach((course) => {
     list.push({
-      url: `https://vyom-computer.onrender.com/courses${course.link}`,
+      url: `https://vyom-computer.onrender.com/${course.link}`,
       lastModified: new Date(),
     });
   });
