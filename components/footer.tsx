@@ -75,24 +75,24 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
             <address className="not-italic space-y-2 text-muted-foreground">
+              <p>Vyom Computer</p>
               <p>39, Punjiram Chambers,</p>
               <p>Radhanpur Road, Mehsana,</p>
-              <p className="mb-3">Gujarat 384002, India.</p>
-              {/* <p>123 Tech Street</p>
-              <p>Silicon Valley, CA 94043</p> */}
+              <p>Gujarat 384002, India.</p>
               <p>
-                Email:{" "}
+                <Link
+                  className="text-muted-foreground underline"
+                  href={"tel:+917777983678"}
+                >
+                  +91 77779 83678
+                </Link>
+              </p>
+              <p>
                 <Link
                   className="text-darkgray underline"
                   href={"mailto:vyomcomputergujarat@gmail.com"}
                 >
                   vyomcomputergujarat@gmail.com
-                </Link>
-              </p>
-              <p>
-                Phone:{" "}
-                <Link className="underline" href={"tel:+917777983678"}>
-                  +91 77779 83678
                 </Link>
               </p>
             </address>
@@ -104,7 +104,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Vyom Computer. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <Link
+            {/* <Link
               href="/privacy-policy"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
@@ -115,7 +115,7 @@ export default function Footer() {
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Terms of Service
-            </Link>
+            </Link> */}
             <Link
               href="/sitemap"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -125,6 +125,31 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      {/* <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p className="text-sm text-muted-foreground">
+          © {new Date().getFullYear()} Vyom Computer. All rights reserved.
+        </p>
+        <div className="flex gap-6">
+          <Link
+            href="/privacy-policy"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Privacy Policy
+          </Link>
+          <Link
+            href="/terms-of-service"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Terms of Service
+          </Link>
+          <Link
+            href="/sitemap"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Sitemap
+          </Link>
+        </div>
+      </div> */}
     </footer>
   );
 }

@@ -181,7 +181,7 @@ export default function Home() {
 
         {/* Animated Code Particles */}
         <div className="absolute inset-0 z-0 opacity-10">
-          <div className="absolute top-[30%] left-1/4 text-primary animate-pulse">
+          <div className="absolute top-[35%] left-1/4 text-primary animate-pulse">
             <Code size={64} />
           </div>
           <div
@@ -197,7 +197,7 @@ export default function Home() {
             <Code size={56} />
           </div>
           <div
-            className="absolute top-2/3 right-1/3 text-primary animate-pulse"
+            className="absolute top-[85%] right-1/3 text-primary animate-pulse"
             style={{ animationDelay: "0.5s" }}
           >
             <Code size={40} />
@@ -311,7 +311,7 @@ export default function Home() {
           </div>
 
           {/* Stats Section */}
-          <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16">
+          {/* <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16">
             <div className="flex flex-col items-center">
               <div className="text-3xl font-bold mb-1">50+</div>
               <div className="text-muted-foreground text-center">Courses</div>
@@ -332,7 +332,7 @@ export default function Home() {
                 Satisfaction
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Trusted By Section */}
           {/* <div className="mt-16 pt-8 border-t">
@@ -749,6 +749,35 @@ export default function Home() {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="py-20">
+        <div className="container mx-auto max-sm:w-[90%]">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              📍 Visit Us at Our Location
+            </h2>
+          </div>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.9345337954514!2d72.3781999!3d23.6066807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c433c8b9d8e31%3A0x37a869b4972f98b1!2sVyom%20Computer!5e0!3m2!1sen!2sin!4v1741922482474!5m2!1sen!2sin"
+            width="100%"
+            height="400"
+            allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="w-full h-96 border-none"
+          ></iframe>
+
+          {/* <div className="mt-12 text-center">
+        <Button variant="outline" size="lg" asChild>
+          <Link href="/success-stories" className="flex items-center gap-2">
+        Read More Success Stories
+        <ArrowRight className="h-4 w-4" />
+          </Link>
+        </Button>
+          </div> */}
         </div>
       </section>
     </>
