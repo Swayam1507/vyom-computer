@@ -259,7 +259,7 @@ export default function Home() {
               {/* Main Image */}
               <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl border border-muted">
                 <Image
-                  src="/static/images/main/students-learning-programming.avif"
+                  src="/static/images/main/students-learning-programming.webp"
                   alt="Students learning programming"
                   loading="eager"
                   width={600}

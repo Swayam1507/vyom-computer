@@ -117,7 +117,7 @@ export default function Footer() {
               Terms of Service
             </Link> */}
             <Link
-              href="/sitemap"
+              href="/sitemap.xml"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Sitemap

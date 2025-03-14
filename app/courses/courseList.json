@@ -1,7 +1,7 @@
 [
   {
     "title": "Expert in Ethical Hacking",
-    "image": "/static/images/courses/expert-ethical-hacking.jpeg",
+    "image": "/static/images/courses/expert-ethical-hacking.webp",
     "badge": "Advanced",
     "duration": "4 months",
     "description": "Become an expert in ethical hacking, covering penetration testing, network security, and cybersecurity strategies.",
@@ -114,7 +114,7 @@
   },
   {
     "title": "CCC - Course on Computer Concepts",
-    "image": "/static/images/courses/ccc.jpg",
+    "image": "/static/images/courses/ccc.webp",
     "badge": "Govt. Certified",
     "duration": "3 months",
     "description": "Learn essential computer skills, including MS Office, Internet usage, and digital payments, with a government-recognized certification.",
@@ -184,7 +184,7 @@
   },
   {
     "title": "Expert in Python Programming",
-    "image": "/static/images/courses/expert-python-programming.jpeg",
+    "image": "/static/images/courses/expert-python-programming.webp",
     "badge": "Trending",
     "duration": "3 months",
     "description": "Master Python programming with hands-on projects, covering data analysis, web development, and automation.",
@@ -259,7 +259,7 @@
   },
   {
     "title": "Tally ERP 9 with GST",
-    "image": "/static/images/courses/tally-erp9-gst.jpg",
+    "image": "/static/images/courses/tally-erp9-gst.webp",
     "badge": "Job Oriented",
     "duration": "3 months",
     "description": "Learn Tally ERP 9 with GST, covering accounting, taxation, and financial management for businesses.",
@@ -325,7 +325,7 @@
   },
   {
     "title": "CCC+ - Advanced Course on Computer Concepts",
-    "image": "/static/images/courses/ccc.jpg",
+    "image": "/static/images/courses/ccc.webp",
     "badge": "Govt. Certified",
     "duration": "6 months",
     "description": "Enhance your computer knowledge with advanced skills, including programming, database management, and networking.",
@@ -401,7 +401,7 @@
 
   {
     "title": "Expert in Server Administration (CESA)",
-    "image": "/static/images/courses/server-administration.jpg",
+    "image": "/static/images/courses/server-administration.webp",
     "badge": "Industry Recognized",
     "duration": "3 months",
     "description": "Learn server setup, maintenance, security, and troubleshooting for Windows and Linux environments.",
@@ -470,7 +470,7 @@
   },
   {
     "title": "Expert in Network Pentest (CENP)",
-    "image": "/static/images/courses/network-pentest.jpg",
+    "image": "/static/images/courses/network-pentest.webp",
     "badge": "Advanced",
     "duration": "3 months",
     "description": "Master network penetration testing techniques to identify and fix vulnerabilities in enterprise networks.",
@@ -537,7 +537,7 @@
 
   {
     "title": "Expert in Web Pentest (CEWP)",
-    "image": "/static/images/courses/expert-web-pentest.jpeg",
+    "image": "/static/images/courses/expert-web-pentest.webp",
     "badge": "Advanced",
     "duration": "3 months",
     "description": "Gain expertise in web penetration testing to identify security flaws and prevent cyber attacks on web applications.",
@@ -606,7 +606,7 @@
   },
   {
     "title": "C Language",
-    "image": "/static/images/courses/c-language.jpeg",
+    "image": "/static/images/courses/c-language.webp",
     "badge": "Trending",
     "duration": "2 months",
     "description": "Learn the fundamentals of programming with C, covering syntax, control structures, functions, and data structures.",
@@ -672,7 +672,7 @@
   },
   {
     "title": "C++ Language",
-    "image": "/static/images/courses/c++.jpeg",
+    "image": "/static/images/courses/c++.webp",
     "badge": "Trending",
     "duration": "2 months",
     "description": "Master Object-Oriented Programming (OOP) with C++, covering classes, inheritance, polymorphism, and real-world applications.",
@@ -738,7 +738,7 @@
   },
   {
     "title": "HTML & DHTML",
-    "image": "/static/images/courses/html-dhtml.jpeg",
+    "image": "/static/images/courses/html-dhtml.webp",
     "badge": "Trending",
     "duration": "2 months",
     "description": "Learn how to build and style web pages using HTML and DHTML with hands-on projects.",
@@ -804,7 +804,7 @@
   },
   {
     "title": "Diploma in Hardware & Networking",
-    "image": "/static/images/courses/diploma-hardware-networking.jpeg",
+    "image": "/static/images/courses/diploma-hardware-networking.webp",
     "badge": "Industry Recognized",
     "duration": "6 months",
     "description": "Gain expertise in computer hardware, networking, troubleshooting, and system security.",
@@ -870,7 +870,7 @@
   },
   {
     "title": "Diploma in Computer Application (DCA)",
-    "image": "/static/images/courses/diploma-computer-application.jpeg",
+    "image": "/static/images/courses/diploma-computer-application.webp",
     "badge": "Job Oriented",
     "duration": "1 year",
     "description": "A comprehensive course covering essential computer applications, programming, and office automation.",
@@ -936,7 +936,7 @@
   },
   {
     "title": "DTP - Desktop Publishing Course",
-    "image": "/static/images/courses/dtp.jpg",
+    "image": "/static/images/courses/dtp.webp",
     "badge": "Govt. Certified",
     "duration": "4 months",
     "description": "Master graphic design and publishing tools, including Photoshop, CorelDRAW, and Page Maker for professional-level designing.",

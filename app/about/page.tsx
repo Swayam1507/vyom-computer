@@ -190,7 +190,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/static/images/about/vandit-barot-profile.png"
+                  src="/static/images/about/vandit-barot-profile.webp"
                   alt="Vandit Barot"
                   fill
                   className="object-cover"
@@ -209,7 +209,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-4">
                 <Image
-                  src="/static/images/about/vaishali-barot-profile.png"
+                  src="/static/images/about/vaishali-barot-profile.webp"
                   alt="Vaishali Barot"
                   fill
                   className="object-cover"
